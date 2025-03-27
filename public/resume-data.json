@@ -1,0 +1,59 @@
+{
+    "basics": {
+      "name": "Xxx Xxx",
+      "label": "Software Developer",
+      "email": "xxx.xxx@example.com",
+      "phone": "+123 123456789",
+      "location": {
+        "city": "Xxx",
+        "country": "Xxxxx"
+      },
+      "summary": "Experienced software developer with expertise in full-stack development."
+    },
+    "experience": [
+      {
+        "company": "Tech Corp",
+        "position": "Software Developer",
+        "startDate": "2025-01",
+        "endDate": "Present",
+        "highlights": [
+          "Developed microservices architecture serving 1M+ users",
+          "Implemented CI/CD pipeline reducing deployment time by 40%"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Technology",
+        "degree": "Master of Science",
+        "field": "Computer Science",
+        "startDate": "2016",
+        "endDate": "2020",
+        "gpa": "4.0"
+      }
+    ],
+    "skills": [
+      {
+        "category": "Programming Languages",
+        "items": ["Python", "TypeScript", "JavaScript"]
+      },
+      {
+        "category": "Frameworks",
+        "items": ["Django", "Angular"]
+      }
+    ],
+    "projects": [
+      {
+        "name": "E-commerce Platform",
+        "description": "Built a scalable e-commerce platform using microservices architecture",
+        "technologies": ["Django", "Angular", "MongoDB", "Docker"],
+        "link": "https://github.com/xxxxxx/ecommerce"
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      }
+    ]
+  }
