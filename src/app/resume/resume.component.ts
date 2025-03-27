@@ -19,4 +19,8 @@ export class ResumeComponent implements OnInit {
     this.http.get('resume-data.json').subscribe(
       (data) => this.resume = data)
   }
+
+  printResume() {
+    window.print()
+  }
 }

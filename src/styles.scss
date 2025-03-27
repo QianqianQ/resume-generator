@@ -17,8 +17,14 @@ body {
 }
 
 @media print {
+  * {
+    /* This CSS property forces colors and backgrounds to print exactly as they appear on screen, even if the browser's print settings would normally ignore them */
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
   body {
-    background: white;
+    background: white !important;
     padding: 0;
   }
 }
